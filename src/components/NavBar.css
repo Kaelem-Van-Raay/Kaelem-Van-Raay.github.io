@@ -1,0 +1,53 @@
+button {
+    position: fixed;
+    left: 20vw;
+    width: 100px;
+    height: 100px;
+    background-color:rgba(0, 0, 0, 0.5);
+    border: none;
+}
+
+.Navbar {
+    width: 20vw;
+    background-color:rgba(0, 0, 0, 0.5);
+    height: 100%;
+    position: fixed;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(-100%);
+    scroll-behavior: smooth;
+}
+
+.Navbar.opened {
+    transform: translateX(0);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+li a {
+    display: block;
+    font-size: calc(10px + 1.25vmin);;
+    color: white;
+    padding: 26px 16px;
+}
+
+li li a {
+    background-color:rgba(25, 25, 112, 0.0);
+}
+
+li li li a {
+    background-color:rgba(25, 25, 112, 0.0);
+}
+
+li a:Hover {
+    background-color: white;
+    color: #282c34;
+}
+
+a:link {
+    text-decoration: none;
+}
