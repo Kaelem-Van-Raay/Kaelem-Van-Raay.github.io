@@ -11,8 +11,6 @@ import Peer from './assets/Peer Helper Logo.jpg';
 
 import github from './assets/github-96.svg';
 import linkedin from './assets/linkedin-96.svg';
-import phone from './assets/phone-96.svg';
-import email from './assets/email-96.svg';
 
 import NavBar from './components/NavBar.js';
 import './components/NavBar.css';
@@ -30,7 +28,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={logo} className="App-logo" alt="logo" width="2%" height="auto"/>
       </header>
       <NavBar></NavBar>
       <div className="Headed-Paragraph" id="AboutMe">
@@ -50,7 +48,7 @@ function App() {
           <h2>
             University of Guelph - Managed Desktops (F24)
           </h2>
-          <img src={UoG} alt="University of Guelph" />
+          <img src={UoG} alt="University of Guelph" width="50%" height="auto"/>
         </div>
         <div id="MD Intro" className="Headed-Paragraph">
           <h2>
@@ -60,7 +58,7 @@ function App() {
             Welcome to my work term report webpage, where I share insights from my experience working with the Managed Desktops team at the University of Guelph. Over the course of the term, I contributed to maintaining and improving IT support for the university, focusing on troubleshooting hardware and software issues, enhancing team efficiency, and expanding my technical skills. This report highlights what I achieved, the challenges I tackled, and the valuable lessons I learned along the way.
           </p>
         </div>
-        <img src={coop} alt="Coop students" />
+        <img src={coop} alt="Coop students" width="50%" height="auto"/>
         <div className="Caption">
           Photo of all of the Coop students working in the Johnston Hall office during the work term, as well as a previous Coop student who assisted in training us (Nuno). From left to right we have: Alina, Aeiyan, Nuno, and me.
         </div>
@@ -105,7 +103,7 @@ function App() {
             <br /><br />Overall, my position with the Managed Desktops team allowed me to deepen my technical knowledge, improve my problem-solving strategies, and gain valuable experience in a professional IT environment. This experience has equipped me with the confidence to handle similar roles in the future while continuing to build on the skills I’ve developed.
           </p>
         </div>
-        <img src={pickup} alt="Managed Desktops pickup storage room" />
+        <img src={pickup} alt="Managed Desktops pickup storage room" width="50%" height="auto"/>
         <div className="Caption">
           Image of the pickup room for the Managed Desktops office. Once devices are imaged, repaired, or prepared from stock pulls, the client is notified and the device(s) are placed here until the client arrives to pick them up.
         </div>
@@ -136,7 +134,7 @@ function App() {
           <br /><br />Another highlight of this work term was the teamwork and mentorship I experienced. The team in Managed Desktops were extremely supportive and friendly, and were always willing to offer guidance if needed, while still maintaining a sense of autonomy and trust. I believe that experience allowed me to gain a deeper appreciation for the role of IT in supporting an organization as multifaceted as the University of Guelph, where technology underpins everything from teaching and research to daily administrative tasks.
           </p>
         </div>
-        <img src={team} alt="Coop students with some full-time techs" />
+        <img src={team} alt="Coop students with some full-time techs" width="50%" height="auto"/>
         <div className="Caption">
           Photo of all of the Coop students along with some of the full-time techs. From left to right we have: Stefan, Aeiyan, Theron, Alina, Jeff, and me.
         </div>
@@ -151,10 +149,8 @@ function App() {
       </div>
       <footer>
         <nav>
-          <a href="https://www.linkedin.com/in/kaelem-van-raay-a808022b7"><img src={linkedin} alt="LinkedIn logo" /></a>
-          <a href="https://github.com/Kaelem-Van-Raay"><img src={github} alt="Github logo" /></a>
-          <img src={email} alt="Email icon" />
-          <img src={phone} alt="Phone icon" />
+          <a href="https://www.linkedin.com/in/kaelem-van-raay-a808022b7"><img src={linkedin} alt="LinkedIn logo" width="30%" height="auto"/></a>
+          <a href="https://github.com/Kaelem-Van-Raay"><img src={github} alt="Github logo" width="30%" height="auto"/></a>
         </nav>
       </footer>
     </div >
